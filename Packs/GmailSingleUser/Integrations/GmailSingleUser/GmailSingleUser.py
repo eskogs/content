@@ -415,6 +415,7 @@ class Client:
         }
         return incident
 
+
     def sent_mail_to_entry(self, title, response, to, emailfrom, cc, bcc, bodyHtml, body, subject):
         gmail_context = []
         for mail_results_data in response:
